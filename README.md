@@ -9,6 +9,8 @@ An arduino sketch that connects a
 # Installation
 Load up your Arduino IDE
 
+Install ESP8266 board via board manager
+
 Add MQ135.h and DHT.h via Library manager
 
 Also add the Adafruit ESP8266 library
