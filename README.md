@@ -1,2 +1,7 @@
-# air-temperature-sensor
-An arduino sketch that connects an MQ-135 air quality sensor and a DHT-11 temperature/humidity sensor to a MQTT broker
+# NodeMCU 
+An arduino sketch that connects a
+- MQ-135 air quality sensor
+- DHT-11 temperature/humidity sensor
+- KY-037 microphone
+
+  To an MQTT broker
