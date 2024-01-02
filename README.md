@@ -26,4 +26,8 @@ Useful tools for flashing NodeMCU
 - [NodeMCU Flasher](https://github.com/nodemcu/nodemcu-flasher)
 
 
-Hit compile
+Hit compile and if successful, upload
+
+To get accurate MQ135 data, you will have to read the rzero value (published by MQTT) with the sensor in a 'neutral' environment
+
+Then update MQ135.h with the new rzero value and reflash the device. If not, your PPM values for air quality may be really high or really low. Normal value should be between 400 to 1000 ppm with the sensor detecting 'poor air quality' when this value goes above 2000ppm
