@@ -8,6 +8,9 @@ An arduino sketch that connects a
 
 # Installation
 Load up your Arduino IDE
+
 Add MQ135.h and DHT.h via Library manager
+
 Also add the Adafruit ESP8266 library
-Also add (MQTT Async Library)[https://github.com/marvinroger/async-mqtt-client] to your Arduino library folder
+
+Also add [MQTT Async Library](https://github.com/marvinroger/async-mqtt-client) to your Arduino library folder
